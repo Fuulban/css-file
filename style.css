@@ -1,0 +1,63 @@
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: sans-serif;
+}
+
+big {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+text {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+bold {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+end {
+  font-weight: normal;
+  font-size: 16px;
+  color: grey;
+}
+
+.block {
+  background-color: var(--bg);
+  border: 1px solid grey;
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 10px;
+}
+
+.content {
+  background-color: var(--bg);
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 10px;
+}
+
+.img {
+  border-radius: 16px;
+  box-sizing: border-box;
+  min-height: 10px;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #111111;
+    --text: #ffffff;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #ffffff;
+    --text: #111111;
+  }
+}
