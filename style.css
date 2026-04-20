@@ -43,8 +43,8 @@ end {
 
 .img {
   border-radius: 16px;
-  box-sizing: border-box;
-  min-height: 10px;
+  wight: 100px
+  height: 100px
 }
 
 
